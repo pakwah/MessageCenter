@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-5dp" android:left="-5dp" android:right="-5dp">
+        <shape android:shape="rectangle">
+            <stroke android:color="#ff4ba587" android:width="5dp"/>
+            <solid android:color="#2C8165"/>
+        </shape>
+    </item>
+</layer-list>
+
+
+<!-- From: file:/Users/kenhuen/Desktop/Developer%20Practice/Android/MCProject/app/src/main/res/drawable/tab_bg_selected.xml -->

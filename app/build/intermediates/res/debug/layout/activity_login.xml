@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:resizeable="true"
+    android:background="@drawable/bgn2"
+    android:fadingEdge="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <EditText
+            android:id="@+id/et_un"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_rounded"
+            android:drawableLeft="@drawable/user"
+            android:inputType="text"
+            android:textColor="#FFE4B5"
+            android:fontFamily="san-serif"
+            android:hint=" Username"
+            android:paddingLeft="10dp"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_pw"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_rounded"
+            android:drawableLeft="@drawable/lock"
+            android:inputType="textPassword"
+            android:textColor="#FFE4B5"
+            android:fontFamily="san-serif"
+            android:hint=" Password"
+            android:paddingLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textSize="7pt"
+            android:fontFamily="san-serif"
+            android:textColor="#FFE4B5" />
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="222dp"
+            android:layout_height="100dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="#A63939"
+            android:textSize="7pt" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/kenhuen/Desktop/Developer%20Practice/Android/MCProject/app/src/main/res/layout/activity_login.xml -->

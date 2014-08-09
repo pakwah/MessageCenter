@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:divider="#2C8165"
+    android:dividerHeight="2dp" >
+
+</ListView>
+<!-- From: file:/Users/kenhuen/Desktop/Developer%20Practice/Android/MCProject/app/src/main/res/layout/activity_topics.xml -->

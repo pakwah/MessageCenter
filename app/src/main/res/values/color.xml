@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+    <color name="tab_color">#B90012</color>
+    <color name="letter">#FFE4B5</color>
+    <color name="white">#FFFFFF</color>
+</resources>
